@@ -8,7 +8,7 @@
     "dev": "snowpack dev",
     "build": "snowpack build",
     "serve": "snowpack build && firebase serve",
-    "git": "git add . && git commit -m",
+    "git": "snowpack build && git add . && git commit -m",
     "postgit": "git push --all"
   },
   "repository": {

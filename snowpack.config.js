@@ -50,9 +50,13 @@ module.exports = {
     // Minify the files
     minify: true,
 
+    // Source map (links minified JS to the properly formatted one)
     sourcemap: 'external',
 
+    // Removes unnceccesary classes and stuff
     treeshake: true,
+
+    // Target ECMAScript version (doesn't really matter)
     target: 'es2018',
   },
 };
