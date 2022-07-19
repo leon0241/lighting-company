@@ -1,7 +1,5 @@
-import { initializeApp } from 'firebase/app'
-import { getAnalytics } from "firebase/analytics";
-
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+import {initializeApp} from "../_snowpack/pkg/firebase/app.js";
+import {getAnalytics} from "../_snowpack/pkg/firebase/analytics.js";
 const firebaseConfig = {
   apiKey: "AIzaSyDe1TsocxMZXlxyAtnpSyReylRhKt2URZE",
   authDomain: "lighting-company-3588d.firebaseapp.com",
@@ -11,6 +9,5 @@ const firebaseConfig = {
   appId: "1:1097820145690:web:c8c6553a7dcdff2d1f29a3",
   measurementId: "G-SXCY1RTWCZ"
 };
-
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
