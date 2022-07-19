@@ -21,7 +21,7 @@ module.exports = {
   },
   buildOptions: {
     baseUrl: './',
-    out: 'dist'
+    out: 'dist',
   },
   optimize: {
     bundle: true,
